@@ -22,6 +22,39 @@ Background & Icons: Dynamic background image with vehicle and fuel icons for bet
 
 Responsive Layout: Works on various screen sizes and devices.
 
+
+**Univariate Analysis :**
+In this Visualization, we can observe how many vehicles are present in each Transmission type.
+<img width="1055" height="571" alt="image" src="https://github.com/user-attachments/assets/265ffb94-a744-4961-aa5a-0a9ffac1418e" />
+
+
+In this Visualization, we can observe that the maximum number of vehicles consume fuel in the range of 7 to 14 liters for 100km
+<img width="1031" height="471" alt="image" src="https://github.com/user-attachments/assets/441f17c7-9301-47fa-ac70-f209034dec34" />
+
+
+for indepth Univariate analysis understanding 👉 https://github.com/manishhemnani06/FUEL_CONSUMPTION_ANALYSIS/blob/main/FUEL_CONSUMPTION_ANALYSIS_FILE.ipynb
+
+**Bivariate Analysis :**
+In this pair plot Visualization, we can observe different scatter plots giving the relation between all features.
+<img width="711" height="641" alt="image" src="https://github.com/user-attachments/assets/6a4b26d3-1369-40a7-99e0-7deeadcea135" />
+
+
+In this bar graph Visualization, we can observe as the number of cylinders increases the fuel consumption is also increasing.
+<img width="1001" height="520" alt="image" src="https://github.com/user-attachments/assets/a0344b16-202f-419c-80f2-85f715c59da7" />
+
+
+This Correlation Heatmap gives relation between all features of data set.
+<img width="1002" height="504" alt="image" src="https://github.com/user-attachments/assets/d9e649b9-7607-4e4b-afc4-8d04f03a61b7" />
+
+
+🤖**M.L. Model**-
+- In this project, tried a total of three machine learning models linear regression, decision tree, and random forest. at last, we found that the linear model is best suitable as per the accuracy as well as the above analysis we found the data is full filling the linear regression assumptions.
+
+
+🤖**M.L. Model Deployment-**
+- Used pickle library to create a sas (Statistical Analysis System) file for model deployment.
+
+
 **How the Code Works**
 
 **Model & Scaler Loading:**
